@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import GetStarted from './components/GetStarted'
 import BrandShine from './components/BrandShine'
+import BuyDomain from './components/BuyDomain'
+import Faq from './components/Faq'
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       <HeroSection />
       <GetStarted />
       <BrandShine />
+      <BuyDomain />
+      <Faq />
     </div>
   )
 }
