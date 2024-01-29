@@ -132,11 +132,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center w-full pl-20 pr-20 pt-5 border-t-2 border-gray-500">
-        <p>
-          Copyright © 2024 <span className="font-dancing ">Pekisa</span>
+      <div className="flex justify-between items-center w-full pl-20 pr-20 pt-5 border-t-2 border-gray-500 ">
+        <p className="text-white font-poppins flex gap-4 items-center">
+          Copyright © 2024 <span className="font-dancing text-xl">Pekisa</span>
         </p>
-        <ul className="flex justify-between items-center gap-10">
+        <ul className="flex justify-between items-center text-white gap-10">
           <li>Terms of Service</li>
           <li>Privacy Policy</li>
         </ul>

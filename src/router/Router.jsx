@@ -5,6 +5,7 @@ import About from "../pages/About.jsx";
 import App from "../App.jsx";
 
 import Layout from "../layout/Layout";
+import NotFound from "../components/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },
