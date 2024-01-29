@@ -46,24 +46,28 @@ const Domains = () => {
 
   const domainReviews = [
     {
+      id: 1,
       name: "Samantha",
       review:
         "I have been using Hover for years and have always been happy with their service. I have never had any issues with them and they are always quick to respond to any questions or concerns I have. I highly recommend them!",
       designation: "Creative Director, Gary Martin Design",
     },
     {
+      id: 2,
       name: "Samantha",
       review:
         "I have been using Hover for years and have always been happy with their service. I have never had any issues with them and they are always quick to respond to any questions or concerns I have. I highly recommend them!",
       designation: "Creative Director, Gary Martin Design",
     },
     {
+      id: 3,
       name: "Samantha",
       review:
         "I have been using Hover for years and have always been happy with their service. I have never had any issues with them and they are always quick to respond to any questions or concerns I have. I highly recommend them!",
       designation: "Creative Director, Gary Martin Design",
     },
     {
+      id: 4,
       name: "Samantha",
       review:
         "I have been using Hover for years and have always been happy with their service. I have never had any issues with them and they are always quick to respond to any questions or concerns I have. I highly recommend them!",

@@ -35,6 +35,3 @@ const CustomerReviewsSlider = ({ review, name, designation }) => {
 };
 
 export default CustomerReviewsSlider;
-
-
-

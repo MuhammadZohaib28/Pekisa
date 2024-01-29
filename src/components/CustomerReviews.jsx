@@ -11,15 +11,18 @@ const CustomerReviews = ({ heading, tagline, reviews }) => {
         <p className="font-poppins text-xl font-normal ">{tagline}</p>
       </div>
 
-      
-      {reviews.map((item, index) => (
-        <CustomerReviewsSlider
-          key={index}
-          review={item.review}
-          name={item.name}
-          designation={item.designation}
-        />
-      ))}
+      {reviews.map((item, index) => {
+        return (
+          <CustomerReviewsSlider
+            key={index.id}
+            review={item.review}
+            name={item.name}
+            designation={item.designation}
+          />
+        );
+      })}
+
+      {console.log(reviews)}
     </div>
   );
 };
