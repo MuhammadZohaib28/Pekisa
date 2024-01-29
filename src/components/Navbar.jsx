@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="flex justify-between items-center p-6 pl-28 pr-28 bg-[#EEF5FF]">
       <div className="flex justify-between items-baseline gap-5">
@@ -30,3 +32,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
