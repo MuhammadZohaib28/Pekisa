@@ -6,17 +6,17 @@ import "slick-carousel/slick/slick-theme.css";
 const CustomerReviewsSlider = ({ review, name, designation }) => {
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
   };
 
   return (
-    <div className="w-full m-auto">
+    <div className="w-full m-auto ">
       <div className="mt-10">
         <Slider {...settings}>
-          <div className="flex   p-10 bg-[#e5f0ff] h-[300px] font-poppins rounded-md">
+          <div className="flex  p-10 bg-[#e5f0ff] h-[300px] font-poppins rounded-md">
             <div>
               <p className="text-md text-gray-700">{review}</p>
             </div>
