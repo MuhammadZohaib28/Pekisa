@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import domainsPicture from "../assets/domain.svg";
+import domainsPicture from "../assets/heroimage.png";
 import Faq from "../components/Faq";
 import BuyDomain from "../components/BuyDomain";
 import CustomerReviews from "../components/CustomerReviews";
