@@ -8,9 +8,11 @@ const Accordion = ({ question, answer }) => {
   };
 
   return (
-    <div className="flex flex-col justify-between items-start pl-24 pr-24 bg-[#B4D4FF]">
-      <div className="flex justify-between items-center gap-5 m-2 p-5 bg-[#9dbcff] w-full rounded-sm ">
-        <h1 className="font-poppins font-medium text-2xl">{question}</h1>
+    <div className="flex flex-col justify-between items-start pl-1 pr-1 md:pl-24 md:pr-24 bg-[#B4D4FF]">
+      <div className="flex justify-between items-center gap-5 m-2 p-2 md:p-5 bg-[#9dbcff] w-full rounded-sm ">
+        <h1 className="font-poppins font-medium md:text-2xl text-lg">
+          {question}
+        </h1>
         <span onClick={handleAnswer} className="cursor-pointer">
           {isOpen ? (
             <MdArrowForwardIos className="rotate-90 text-2xl transition-transform duration-300 " />

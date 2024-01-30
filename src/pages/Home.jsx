@@ -28,10 +28,10 @@ const Home = () => {
         buttonText={"Find your domain"}
         taglineSize={"text-4xl"}
       />
-      <CustomerReviews
+      {/* <CustomerReviews
         heading={"Look what our customers say!"}
         reviews={homeReviews}
-      />
+      /> */}
       <Faq heading={"The domain name FAQ"} faq={homePageFaq} />
     </div>
   );

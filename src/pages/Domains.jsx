@@ -24,13 +24,13 @@ const Domains = () => {
         buttonText={"Search for your domain"}
         taglineSize={"text-3xl"}
       />
-      <CustomerReviews
+      {/* <CustomerReviews
         heading={"Stop Searching And Choose Hover"}
         tagline={
           "Our customers really love us, and we’re confident you will too."
         }
         reviews={domainReviews}
-      />
+      /> */}
       <Faq heading={"Questions? We have answers."} faq={domainPageFaq} />
     </div>
   );

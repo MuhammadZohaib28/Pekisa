@@ -25,25 +25,25 @@ const WhatWeAreAllAbout = () => {
     },
   ];
   return (
-    <div className="bg-[#7FC7D9]  flex flex-col items-start pl-24 pr-24 p-20">
+    <div className="bg-[#7FC7D9]  flex flex-col items-start p-20 pl-4 pr-4 md:pl-24 md:pr-24">
       <div>
         <h1 className="font-poppins font-bold capitalize text-5xl text-gray-800">
           What we’re all about
         </h1>
       </div>
 
-      <div className="flex justify-around items-center mt-10 gap-10">
+      <div className="flex flex-col md:flex-row justify-around items-center mt-10 gap-10">
         {cardData.map((item, index) => (
           <div
             key={index}
-            className="bg-[#DCF2F1] rounded-sm h-[250px] w-3/4 flex justify-between item-start gap-10 p-5"
+            className="bg-[#DCF2F1] rounded-sm md:h-[250px] h-full w-full md:3/4 flex justify-between item-start gap-10 p-2 md:p-5"
           >
             <span className="text-5xl">{item.icon}</span>
             <div className="flex flex-col items-start gap-3">
               <h1 className="font-poppins font-semibold capitalize text-3xl text-gray-700">
                 {item.tagline}
               </h1>
-              <p className="font-poppins font-normal text-lg text-gray-500">
+              <p className="font-poppins font-normal text-sm md:text-lg text-gray-500">
                 {item.description}
               </p>
             </div>

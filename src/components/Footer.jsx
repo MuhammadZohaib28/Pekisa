@@ -95,10 +95,10 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-[#113945] flex flex-col justify-between items-center h-[calc(100vh-20rem)] pl-24 pr-24">
-      <div className="flex justify-between items-center gap-36 h-screen">
-        <div className="flex flex-col justify-around items-center gap-4">
-          <h1 className="capitalize text-6xl font-bold font-dancing text-white">
+    <footer className="bg-[#113945] flex flex-col justify-between items-start md:items-center md:h-[calc(100vh-20rem)] h-[calc(100vh-30rem)] pl-2 pr-2 md:pl-24 md:pr-24">
+      <div className="flex justify-between items-center  gap-2 md:gap-36 h-screen">
+        <div className="flex flex-row md:flex-col justify-around items-center gap-10 md:gap-4">
+          <h1 className="capitalize text-5xl md:text-6xl font-bold font-dancing text-white">
             Pekisa
           </h1>
           <ul className="flex justify-around items-center gap-3">
@@ -115,7 +115,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex justify-between items-center gap-4">
+        <div className="  hidden md:block justify-between items-center gap-4">
           <div className="flex justify-between items-start gap-24">
             {footerdata.map((data, index) => (
               <div className="flex flex-col gap-1" key={index}>
@@ -132,11 +132,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center w-full pl-20 pr-20 pt-5 border-t-2 border-gray-500 ">
-        <p className="text-white font-poppins flex gap-4 items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full md:pl-20 md:pr-20 pl-2 pr-2 pt-5 border-t-2 border-gray-500 ">
+        <p className="text-white font-poppins flex md:flex-row flex-col gap-4 items-center">
           Copyright © 2024 <span className="font-dancing text-xl">Pekisa</span>
         </p>
-        <ul className="flex justify-between items-center text-white gap-10">
+        <ul className="hidden  md:block justify-between items-center text-white gap-10">
           <li>Terms of Service</li>
           <li>Privacy Policy</li>
         </ul>

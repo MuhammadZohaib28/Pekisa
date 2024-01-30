@@ -16,9 +16,9 @@ const CustomerReviewsSlider = ({ review, name, designation }) => {
     <div className="w-full m-auto ">
       <div className="mt-10">
         <Slider {...settings}>
-          <div className="flex  p-10 bg-[#e5f0ff] h-[300px] font-poppins rounded-md">
+          <div className="flex p-3 md:p-10 bg-[#e5f0ff] h-[300px] font-poppins rounded-md">
             <div>
-              <p className="text-md text-gray-700">{review}</p>
+              <p className="text-sm text-gray-700">{review}</p>
             </div>
 
             <div className="flex flex-col justify-center items-start gap-2 p-2">
