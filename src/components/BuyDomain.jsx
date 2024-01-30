@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const BuyDomain = ({ tagline, buttonText, taglineSize }) => {
   return (
-    <div className="bg-[#EEF5FF] flex md:flex-row flex-col justify-around items-center gap-5 md:gap-0 p-7 pl-4 pr-4 md:pl-24 md:pr-24">
+    <div className="bg-[#fbfdff] flex md:flex-row flex-col justify-around items-center gap-5 md:gap-0 p-7 pl-4 pr-4 md:pl-24 md:pr-24">
       <h1
         className={`font-poppins font-extrabold text-3xl md:${taglineSize} capitalize text-[#176B87] text-center`}
       >
