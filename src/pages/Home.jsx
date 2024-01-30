@@ -19,6 +19,7 @@ const Home = () => {
         }
         picture={heroimage}
         screenHeight={"h-[calc(100vh-12rem)]"}
+        showInputField={true}
       />
       <GetStarted />
       <BrandShine />

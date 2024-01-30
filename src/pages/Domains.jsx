@@ -17,6 +17,7 @@ const Domains = () => {
         }
         picture={domainsPicture}
         screenHeight={"h-[calc(100vh-6rem)]"}
+        showInputField={true}
       />
       <BuyDomain
         tagline={"Is your perfect domain name available?"}

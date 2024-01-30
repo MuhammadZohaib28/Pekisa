@@ -6,6 +6,7 @@ const HeroSection = ({
   description,
   picture,
   screenHeight,
+  showInputField,
 }) => {
   return (
     <div
@@ -21,16 +22,18 @@ const HeroSection = ({
         <p className="font-poppins font-normal capitalize text-xl text-gray-500">
           {description}
         </p>
-        <div className="flex  items-center relative">
-          <input
-            type="search"
-            placeholder="Enter the domain you want"
-            className="w-full p-4 placeholder:text-gray-400 font-normal font-poppins rounded-l-md relative"
-          />
-          <button className="bg-slate-900 text-[#EEF5FF] font-poppins font-medium  p-4 rounded-r-md absolute right-0">
-            Submit
-          </button>
-        </div>
+        {showInputField && ( // Conditionally render input field
+          <div className="flex items-center relative">
+            <input
+              type="search"
+              placeholder="Enter the domain you want"
+              className="w-full p-4 placeholder:text-gray-400 font-normal font-poppins rounded-l-md relative"
+            />
+            <button className="bg-slate-900 text-[#EEF5FF] font-poppins font-medium  p-4 rounded-r-md absolute right-0">
+              Submit
+            </button>
+          </div>
+        )}
       </div>
       <div>
         <img src={picture} alt="" />
