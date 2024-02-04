@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const footerdata = [
     {
-      title: "Products",``
+      title: "Products",
       links: [
         {
           name: "Domains",
